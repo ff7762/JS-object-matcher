@@ -13,7 +13,6 @@ document.getElementById('theform').onsubmit = function() {
     for ( var group in response.groups) {
         var groupArray = response.groups[group];
         var length = groupArray.length;
-        console.log(groupArray);
         var countMatched = 0;
         var selectionIndex = 0;
         for (selectionIndex = 0; selectionIndex < selectionArray.length; ++selectionIndex ) {
